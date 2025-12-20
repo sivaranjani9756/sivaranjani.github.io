@@ -96,6 +96,31 @@ section h2 {
 }
 
 /* ================= CONTACT ================= */
-#contact p {
-  margin: 6px 0;
+.contact-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.contact-item h4 {
+  margin-bottom: 8px;
+  color: #f4b400;
+}
+
+.contact-item p,
+.contact-item a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.contact-item a:hover {
+  color: #f4b400;
 }
