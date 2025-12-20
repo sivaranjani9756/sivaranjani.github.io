@@ -352,3 +352,12 @@ section h2 {
     font-size: 36px;
   }
 }
+/* ===== FIX PROJECT IMAGE SIZE ===== */
+.project-card img {
+  width: 100%;
+  height: 180px;          /* controls image height */
+  object-fit: cover;     /* prevents stretching */
+  display: block;
+  background-color: #111;
+}
+
